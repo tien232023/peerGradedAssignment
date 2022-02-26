@@ -1,5 +1,5 @@
 # Summary:
-# Run the entire code line by line. Some errors are deliberately made in order to demonstrate
+# Run the entire code line by line. Some errors were deliberately made in order to demonstrate
 # my exploring process.
 # For Task1: view the "original_data" object
 # For Task2,3 and 4: view the "original_data_onlyMeanStd" object

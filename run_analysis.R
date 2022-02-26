@@ -43,7 +43,7 @@ original_data <- merge(traindata, testdata, by=names(testdata), all=TRUE)
 
 
 # Task 2: Extract only the measurements on the mean and standard deviation for each measurement. 
-var_mean_std<- grep("mean|std|subject|activity", names(original_data), value = TRUE)
+var_mean_std<- grep("[Mm]ean|[Ss]td|subject|activity", names(original_data), value = TRUE)
 original_data_onlyMeanStd <- original_data[var_mean_std]
 
 
